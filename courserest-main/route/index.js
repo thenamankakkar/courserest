@@ -7,7 +7,7 @@ cRoute.route('/course/:id').get(courseController.readSingle);
 //create
 cRoute.route('/course').post(courseController.create);
 // update
-/*cRoute.route('/course/:id').patch(courseController.update);*/
+cRoute.route('/course/:id').patch(courseController.update);
 // delete
 cRoute.route('/course/:id').delete(courseController.delete);
 
